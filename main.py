@@ -2,6 +2,7 @@ import numpy as np
 from mpmath import *
 from twin import *
 from intvalpy import *
+from operation import *
 
 
 def print_hi(name):
@@ -17,20 +18,27 @@ if __name__ == '__main__':
     b1 = 6
     b2 = 10
 
-    data1 = Interval(4, 6)
+    #float('nan')
+    #data1 = Interval(1, 6)
+    data1 = Interval(float('nan'), float('nan'))
     data2 = Interval(1, 10)
-    data3 = Interval(1, 4)
-    data4 = Interval(1, 10)
+    #data3 = Interval(3, 5)
+    data3 = Interval(float('nan'), float('nan'))
+    data4 = Interval(2, 6)
 
     tw1 = Twin(data1, data2)
     print(tw1)
     tw2 = Twin(data3, data4)
     print(tw2)
 
-    print(twins_plus(tw1, tw2))
-    #twins_plus(tw1, tw2).print()
+    #print(p(tw1, tw2))
+    #print(q(tw1, tw2))
 
-    #print(twins_multiply(tw1, tw2))
+    #print(psi(data1, data2))
+
+    #print(twins_plus(tw1, tw2))
+
+    print(twins_multiply(tw1, tw2))
 
     #print(unary_minus_twin(tw1))
 
