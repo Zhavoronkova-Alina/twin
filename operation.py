@@ -48,7 +48,7 @@ def twins_plus(T1: Twin, T2: Twin):
 def phi(I1, I2):
     Z = intersection(I1, I2)
 
-    if isnan(float(Z.a)) or isnan(float(Z.b)):
+    if not (isnan(float(Z.a)) or isnan(float(Z.b))):
         return Interval(float('nan'), float('nan'))
 
     min_ = abs(I1.a - I2.a)
