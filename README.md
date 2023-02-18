@@ -1,2 +1,4 @@
-# twin
-Реализация твинной арифметики. Хорошо, если тут появится какое-то описание.
+### Twin arithmetic  library in Python
+A Python module that implements twin arithmetic.
+## Operations with twins
+
