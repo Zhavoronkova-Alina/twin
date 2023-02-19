@@ -10,6 +10,8 @@ $T_2=(\[b^-, b^+\], \[B^-, B^+ \])$
 
 Define the numbers p and q as follows:
 - if $\[a^-, a^+\] \neq \emptyset$ and $\[b^-, b^+\] \neq \emptyset$
+
+
 $p=$
 $q=$
 - if $\[a^-, a^+\] = \emptyset$ and $\[b^-, b^+\] \neq \emptyset$
