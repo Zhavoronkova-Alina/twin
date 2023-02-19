@@ -9,14 +9,14 @@ $T_1=(\[a^-, a^+\], \[A^-, A^+ \])$
 $T_2=(\[b^-, b^+\], \[B^-, B^+ \])$
 
 Define the numbers p and q as follows:
-- if $\[a^-, a^+\] \neq \emptyset$ and $\[b^-, b^+\] \neq \emptyset$
+- if $\[a^-, a^+\] \neq \varnothing$ and $\[b^-, b^+\] \neq \varnothing$
 
 
 $p=$
 $q=$
 - if $\[a^-, a^+\] = \varnothing$ and $\[b^-, b^+\] \neq \varnothing$
-- if $\[a^-, a^+\] \neq \emptyset$ and $\[b^-, b^+\] = \emptyset$
-- if $\[a^-, a^+\] = \emptyset$ and $\[b^-, b^+\] = \emptyset$
+- if $\[a^-, a^+\] \neq \varnothing$ and $\[b^-, b^+\] = \varnothing$
+- if $\[a^-, a^+\] = \varnothing$ and $\[b^-, b^+\] = \varnothing$
 p,q is undefined
 
 Define the functions $\varphi$ and $\psi$ as follows:
