@@ -31,10 +31,23 @@ $$\varphi(I_1,I_2)= min_{\subseteq}{( (c^-,c^+) | (c^- \in I_1 \text{ and } c^+ 
  
  $$\psi(I_1,I_2)=max_{\subseteq} ( (c^-,c^+) |c^-,c^+ \in I_1 \cup I_2 )$$
 ### Sum
-Lets define inner lenth of twin: $|T|_l =\|X_l\|$
-$T_1+T_2=$
-
+Lets define inner lenth of twin: $|T|_l =\|X_l\|$ and outer length as $|T| =\|X\|$. 
+If $I \sqsubseteq (\varnothing, X)$ than |T|_l = -1. It means that exist only outer estimation.
+Than
+- if $|T_1| \leq |T_2|_l \vee |T_2| \leq |T_1|_l$
+$$T_1+T_2= ( (p,q), (A-+B^-,A^++B^+) )$$
+- else
+$$T_1+T_2= ((\nothing), (A-+B^-,A^++B^+) )$$
 ### Mul
+Multiplication of two twins $T_1,T_2$
+- if $|T_1| \neq -1$ and $|T_2|_l \neq -1$, then
+$$T_1 \cdot T_2 = (\psi(\varphi(a^-(B^-,B^+)),\varphi(b^- (A^-,A^+), b^+  (A^-,A^+) ) )  , (A^-, A^+)\cdot (B^-,B^+) )$$
+- if $|T_1| = -1$ and $|T_2|_l \neq -1$, then
+$$  T_1 \cdot T_2 = (\varphi(b^- (A^-,A^+), b^+ (A^-,A^+)), (A^-, A^+)\cdot (B^-,B^+) )$$
+- if $|T_1| \neq -1$ and $|T_2|_l = -1$, then
+$$ T_1 \cdot T_2 =(\varphi(a^- (B^-,B^+), a^+ (B^-,B^+)), (A^-, A^+)\cdot (B^-,B^+) ) $$
+- if $|T_1| = -1$ and $|T_2|_l = -1$, then
+$$T_1 \cdot T_2 = (\varnothing,(A^-, A^+)\cdot (B^-,B^+) )$$
 
 ### Uminus
 
