@@ -31,6 +31,7 @@ $$\varphi(I_1,I_2)= min_{\subseteq}{( (c^-,c^+) | (c^- \in I_1 \text{ and } c^+ 
  
  $$\psi(I_1,I_2)=max_{\subseteq} ( (c^-,c^+) |c^-,c^+ \in I_1 \cup I_2 )$$
 ### Sum
+Lets define inner lenth of twin: $|T|_l =\|X_l\|$
 $T_1+T_2=$
 
 ### Mul
