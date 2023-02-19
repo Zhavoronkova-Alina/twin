@@ -14,7 +14,7 @@ Define the numbers p and q as follows:
 
 $p=$
 $q=$
-- if $\[a^-, a^+\] = \emptyset$ and $\[b^-, b^+\] \neq \emptyset$
+- if $\[a^-, a^+\] = \varnothing$ and $\[b^-, b^+\] \neq \varnothing$
 - if $\[a^-, a^+\] \neq \emptyset$ and $\[b^-, b^+\] = \emptyset$
 - if $\[a^-, a^+\] = \emptyset$ and $\[b^-, b^+\] = \emptyset$
 p,q is undefined
