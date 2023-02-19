@@ -31,8 +31,8 @@ $$\varphi(I_1,I_2)= min_{\subseteq}{( (c^-,c^+) | (c^- \in I_1 \text{ and } c^+ 
  
  $$\psi(I_1,I_2)=max_{\subseteq} ( (c^-,c^+) |c^-,c^+ \in I_1 \cup I_2 )$$
 ### Sum
-Lets define inner lenth of twin: $|T|_l =\|X_l\|$ and outer length as $|T| =\|X\|$. 
-If $I \sqsubseteq (\varnothing, X)$ than |T|_l = -1. It means that exist only outer estimation.
+Let's define inner length of twin as $|T|_l =\|X_l\|$ and outer length as $|T| =\|X\|$. 
+If $I \sqsubseteq (\varnothing, X)$ than $|T|_l = -1$. It means that exist only outer estimation.
 Than
 - if $|T_1| \leq |T_2|_l \vee |T_2| \leq |T_1|_l$
 $$T_1+T_2= ( (p,q), (A-+B^-,A^++B^+) )$$
