@@ -29,7 +29,7 @@ $$\varphi(I_1,I_2)= min_{\subseteq}{ (c^-,c^+) | (c^- \in I_1 \text{ and } c^+ \
 - else
  $$\varphi(I_1,I_2)=\varnothing$$
  
- $$\psi(I_1,I_2)=max_{\subseteq} \left\{(c^-,c^+) |c^-,c^+ \in I_1 \cup I_2 \right\}$$
+ $$\psi(I_1,I_2)=max_{\subseteq} «{»(c^-,c^+) |c^-,c^+ \in I_1 \cup I_2 «}»$$
 ### Sum
 $T_1+T_2=$
 
