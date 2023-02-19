@@ -24,8 +24,9 @@ $p,q$ is undefined
 
 Define the functions $\varphi$ and $\psi$ as follows:
 $Z$ is empty set or it have one element, $I_1,I_2 \in \mathbb{IR}$.
-$$\varphi(I_1,I_2)=\begin{cases}
-   \min_{\subseteq} \{ \[c^-,c^+\] | (c^- \in I_1 & c^+ \in I_2) \vee (с^- \in I_2 & c^+ \in I_1) \}, & if I_1 \cap I_2 =Z;\\ 
+$$\varphi(I_1,I_2)=
+ \begin{cases}
+   \min_{\subseteq} (c^-,c^+) |(c^- \in I_1 \& c^+ \in I_2) \vee (с^- \in I_2 \& c^+ \in I_1) ,  & if I_1 \cap I_2 =Z;\\ 
    \varnothing,& else
  \end{cases}$$
 
