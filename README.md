@@ -1,4 +1,4 @@
-### Twin arithmetic  library in Python
+# Twin arithmetic class in Python
 A Python module that implements twin arithmetic.
 ## Operations with twins
 Twin is a couple of interval $T=(X_l,X)$, where $X_l,X \in \mathbb{IR}$.
@@ -20,12 +20,12 @@ p,q is undefined
 Define the functions $\varphi$ and $\psi$ as follows:
 
 
-# Sum
+### Sum
 $T_1+T_2=$
 
-# Mul
+### Mul
 
-# uminus
+### Uminus
 
 ## Order relation
 
