@@ -1,7 +1,7 @@
 # Twin arithmetic class in Python
 A Python module that implements twin arithmetic.
 ## Operations with twins
-Twin is a couple of interval $T=(X_l,X)$, where $X_l,X \in \mathbb{IR}$.
+Twin is a couple of intervals $T=(X_l,X)$, where $X_l,X \in \mathbb{IR}$.
 
 Estimate an unknown interval 𝐼 as a twin means to find such a twin $T=(X_l,X)$: $X_l \subseteq I \subseteq X$ ($I \sqsubseteq T$).
 
