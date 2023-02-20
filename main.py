@@ -21,6 +21,5 @@ if __name__ == '__main__':
     print(-T2)
     print(T1 == T1)
     print(T1 == T2)
-    print(T1 <= T1)
-    print(T1 <= T2)
+    print(T1 in T1)
 

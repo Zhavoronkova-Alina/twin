@@ -155,7 +155,7 @@ class Twin(object):
         else:
             return False
 
-    def __le__(self,other):
+    def __contains__(self, other):
         if (self.X in other.X) and (other.X_l in self.X_l):
             return True
         else:
