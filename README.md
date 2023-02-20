@@ -52,7 +52,7 @@ $$T_1 \cdot T_2 = (\varnothing,(A^-, A^+)\cdot (B^-,B^+) )$$
 
 ### Uminus and opposite element
 $$-T_1=(-X_l,-X)$$
-$$\dfrac{1}{T_1}=(\dfrac{1}{X_1},\dfrac{1}{X})$$
+$$1/T_1=(1/X_l,1/X)$$
 
 ## Order relation
 
