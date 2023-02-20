@@ -55,5 +55,13 @@ $$-T_1=(-X_l,-X)$$
 ### Opposite element
 $$ 1 / T_1 = ( 1 / X_l , 1 / X )$$
 
-## Order relation
-
+### IN relation (comparation)
+Let $T_1=(I_{1l},I_1)$ and $T_2=(I_{2l},I_2)$
+$$T_1 \subseteq T_2 \Leftrightarrow (I_1\subseteq I_2) \text{ and }(I_{1l}\subseteq I_{2l}) $$
+## Literature
+1) Нестеров В. М. Твинные арифметики и их применение в методах и алгоритмах двустороннего интервального оценивания. — Санкт-Петербург: Диссертация
+на соискание ученой степени доктора физико-математических наук, 1999. — 234 с.
+2) Interval library in Python. — URL: https://github.com/AndrosovAS/intvalpy
+3) Шарый С. П. Конечномерный интервальный анализ. — Новосибирск:
+Изд-во «XYZ», 2022. — 653 с. — URL: http://www.nsc.ru/interval/Library/InteBooks/
+SharyBook.pdf.
