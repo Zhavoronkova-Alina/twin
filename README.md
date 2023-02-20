@@ -50,9 +50,10 @@ $$T_1 \cdot T_2 =( \varphi(a^- (B^-,B^+), a^+   (B^-,B^+) ) , (A^-, A^+) \cdot (
 - if $|T_1| = -1$ and $|T_2|_l = -1$, then
 $$T_1 \cdot T_2 = (\varnothing,(A^-, A^+)\cdot (B^-,B^+) )$$
 
-### Uminus and opposite element
+### Uminus 
 $$-T_1=(-X_l,-X)$$
-$$1/T_1=(1/X_l,1/X)$$
+### Opposite element
+$$ 1 / T_1 = ( 1 / X_l , 1 / X )$$
 
 ## Order relation
 
